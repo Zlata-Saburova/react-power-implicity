@@ -69,3 +69,30 @@
     color: rgb(255, 255, 255);
   }
 }
+
+@media (max-width: 1024px) {
+  .header {
+    &__title {
+      font-size: 60px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &__title {
+      max-width: 300px;
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    &__dot {
+      width: 10px;
+      height: 10px;
+    }
+  }
+}
