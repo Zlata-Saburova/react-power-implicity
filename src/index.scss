@@ -23,7 +23,11 @@ ol {
 }
 
 body {
-  background: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%);
+  background: linear-gradient(
+    124.53deg,
+    rgb(252, 63, 95) 0%,
+    rgb(125, 97, 255) 100.32%
+  );
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
 }

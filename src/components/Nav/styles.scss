@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   padding: 32px 16px 184px;
-  margin-top: 95px;
 
   &__logo {
     margin-right: auto;
@@ -20,7 +19,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: hsl(214, 4%, 64%);
+    color: rgb(160, 163, 167);
   }
 
   &__btn {
@@ -30,8 +29,12 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: hsl(216, 12%, 16%);
-    background: linear-gradient(93.22deg, #e1e1e1 8.37%, #ffffff 99.95%);
+    color: rgb(36, 40, 46);
+    background: linear-gradient(
+      93.22deg,
+      rgb(225, 225, 225) 8.37%,
+      rgb(255, 255, 255) 99.95%
+    );
     box-shadow: 0px 4px 50px rgba(37, 37, 37, 0.08),
       inset 1px 1px 1px rgba(135, 135, 135, 0.32);
     border-radius: 999px;
