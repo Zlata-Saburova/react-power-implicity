@@ -9,17 +9,17 @@ export const Nav = () => {
       </a>
       <ul className="nav__list">
         <li className="nav__item">
-          <a href="" className="nav__item--link">
+          <a href="" className="nav__link">
             Features
           </a>
         </li>
         <li className="nav__item">
-          <a href="" className="nav__item--link">
+          <a href="" className="nav__link">
             Partners
           </a>
         </li>
         <li className="nav__item">
-          <a href="" className="nav__item--link">
+          <a href="" className="nav__link">
             Stories
           </a>
         </li>

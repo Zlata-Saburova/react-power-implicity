@@ -12,7 +12,7 @@ export const Header = () => {
         <a href="" className="header__link">
           Learn
         </a>
-        <ul className="header__dotsList">
+        <ul className="header__list">
           <li className="header__item">
             <div className="header__dot"></div>
           </li>
