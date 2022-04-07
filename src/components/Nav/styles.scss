@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
+
   padding: 32px 16px 184px;
 
   &__logo {
@@ -15,21 +16,23 @@
 
   &__item {
     margin: 0 64px;
-    font-family: "Helvetica";
+
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+
     color: rgb(160, 163, 167);
   }
 
   &__btn {
     padding: 16px 24px;
     margin-left: auto;
-    font-family: "Helvetica";
+
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: rgb(36, 40, 46);
+
     background: linear-gradient(
       93.22deg,
       rgb(225, 225, 225) 8.37%,
@@ -39,22 +42,22 @@
       inset 1px 1px 1px rgba(135, 135, 135, 0.32);
     border-radius: 999px;
   }
-}
 
-@media (max-width: 768px) {
-  .nav {
-    padding: 32px 16px 100px;
-    &__list {
-      display: block;
-    }
+  @media (max-width: 768px) {
+    .nav {
+      padding: 32px 16px 100px;
+      &__list {
+        display: block;
+      }
 
-    &__item {
-      margin: 5px 0px;
-      text-align: center;
-    }
+      &__item {
+        margin: 5px 0px;
+        text-align: center;
+      }
 
-    &__btn {
-      padding: 10px 10px;
+      &__btn {
+        padding: 10px 10px;
+      }
     }
   }
 }

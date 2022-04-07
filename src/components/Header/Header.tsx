@@ -9,25 +9,15 @@ export const Header = () => {
           Instead of spending time searching for the right app, our AI will
           bring the right app to you.
         </p>
-        <a href="" className="header__link">
+        <a href="#" className="header__link">
           Learn
         </a>
         <ul className="header__list">
-          <li className="header__item">
-            <div className="header__dot"></div>
-          </li>
-          <li className="header__item">
-            <div className="header__dot"></div>
-          </li>
-          <li className="header__item">
-            <div className="header__dot header__dot--active"></div>
-          </li>
-          <li className="header__item">
-            <div className="header__dot"></div>
-          </li>
-          <li className="header__item">
-            <div className="header__dot"></div>
-          </li>
+          <li className="header__dot"></li>
+          <li className="header__dot"></li>
+          <li className="header__dot header__dot--active "></li>
+          <li className="header__dot"></li>
+          <li className="header__dot"></li>
         </ul>
       </div>
     </header>
